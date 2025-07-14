@@ -1,8 +1,8 @@
 // === Enhanced Layout and Sidebar with Persistence, Tooltips, Icons, etc ===
 
 import { useEffect, useState } from 'react'
-import { NavLink, useLocation } from 'react-router-dom'
-import { FiMenu, FiGrid, FiBarChart2, FiActivity } from 'react-icons/fi'
+import { NavLink } from 'react-router-dom'
+import { FiMenu, FiGrid } from 'react-icons/fi'
 
 const Sidebar = () => {
   const [open, setOpen] = useState(true)
