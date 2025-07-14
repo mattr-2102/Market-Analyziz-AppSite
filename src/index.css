@@ -1,0 +1,38 @@
+:root {
+  --antiflash-white: #ebebeb;
+  --chefchaouen-blue: #5196f5;
+  --onyx: #2f3237;
+  --raisin-black: #26282c;
+  --eerie-black: #1c1e21;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  background-color: var(--eerie-black);
+  color: var(--antiflash-white);
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--chefchaouen-blue);
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #3b7ee6;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  outline: none;
+}
